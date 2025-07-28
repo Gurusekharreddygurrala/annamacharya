@@ -1,0 +1,8 @@
+import java.util.*;
+public class strac{
+    public static void main(String []args){
+        String str="helloguyswelcom";
+        System.out.println(str.length());
+       // if(str.length()>9)
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! How can I assist you?", "Hi there! What can I help you with?"]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are available?", "Tell me about BTech courses", "List the departments"],
+      "responses": ["We offer BTech in CSE, ECE, Mechanical, Civil, and AI & DS."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee structure?", "Tell me the fees for CSE", "Tuition fees details"],
+      "responses": ["The annual fee for BTech programs is ₹95,000."]
+    },
+    {
+      "tag": "campus",
+      "patterns": ["Tell me about campus", "Hostel facilities", "Campus life", "Does the college have a canteen?"],
+      "responses": ["Yes, we have a spacious campus with a digital library, canteen, WiFi, and hostel facilities."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": ["Goodbye! Have a great day!", "See you soon!"]
+    }
+  ]
+}

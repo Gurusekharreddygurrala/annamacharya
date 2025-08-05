@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .normal {
+      width: 200px;
+      padding: 20px;
+      background: lightgray;
+    }
+
+    .boxed {
+      width: 200px;
+      padding: 20px;
+      background: lightgray;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="normal">Without box-sizing (will overflow)</div>
+  <div class="boxed">With box-sizing: border-box (fixed size)</div>
+</body>
+</html>

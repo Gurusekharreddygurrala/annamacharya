@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Mini Webpage</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: navy;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #555;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      padding: 8px 15px;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #777;
+      border-radius: 5px;
+    }
+
+    .content {
+      display: flex;
+      padding: 20px;
+    }
+
+    .left {
+      flex: 1;
+      background-color: lightgray;
+      padding: 20px;
+    }
+
+    .right {
+      flex: 2;
+      background-color: lightblue;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Responsive layout for small screens */
+    @media (max-width: 600px) {
+      .content {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Mini Webpage</h1>
+    <p>Using HTML + CSS together</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="content">
+    <div class="left">
+      <h2>Left Column</h2>
+      <p>This is the left side section. You can put menus, ads, or side info here.</p>
+    </div>
+    <div class="right">
+      <h2>Main Content</h2>
+      <p>This is the main area where your page's content will go.</p>
+      <p>You can add text, images, links, or anything else here using HTML and style it with CSS.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 My Mini Webpage. All rights reserved.
+  </footer>
+
+</body>
+</html>
